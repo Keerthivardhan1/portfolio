@@ -10,7 +10,7 @@ section{
    
     height: 100vh;
     background-color: white;
-    border: solid red 2px; 
+    border: solid black 2px; 
 }
 
 .hero{
@@ -97,4 +97,44 @@ on the screen
 
 .social{
     margin: 20px;
+}
+
+.subsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+h2{
+    font-size: 30px;
+}
+.headshot{
+    border-radius: 300px;
+}
+
+.headshot-container{
+    display: flex;
+}
+
+
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sp{
+    display: flex;
+    flex-direction: column;
+}
+
+.sp h2{
+    text-align: center;
+}
+
+.project-card{
+    margin: 5px;
+    width: 25vw;
+    height: 70vh;
+    box-shadow: 5px 5px 20px;
 }
